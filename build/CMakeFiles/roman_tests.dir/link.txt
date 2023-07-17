@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/roman_tests.dir/tests/roman.tests.cpp.o CMakeFiles/roman_tests.dir/src/roman.c.o -o roman_tests  -lgtest -lgtest_main -lpthread 

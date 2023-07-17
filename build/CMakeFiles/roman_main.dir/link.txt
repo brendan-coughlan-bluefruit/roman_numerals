@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/roman_main.dir/src/main.c.o CMakeFiles/roman_main.dir/src/roman.c.o -o roman_main 
