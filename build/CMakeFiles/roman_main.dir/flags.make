@@ -6,5 +6,5 @@ C_DEFINES =
 
 C_INCLUDES = -I/home/brendan/projects/dojokata/roman_numerals/include
 
-C_FLAGS = -std=gnu11
+C_FLAGS = -Wall -Wextra -Wpedantic -std=gnu11
 

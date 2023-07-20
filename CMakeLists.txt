@@ -16,6 +16,9 @@ include_directories(include)
 # Create the executable
 add_executable(roman_main ${SOURCES})
 
+# Treat warnings as errors
+target_compile_options(roman_main PRIVATE -Wall -Wextra -Wpedantic)
+
 # Test executable
 add_executable(roman_tests
     tests/roman.tests.cpp
@@ -27,3 +30,4 @@ target_include_directories(roman_tests PRIVATE include)
 
 # Link with Google Test
 target_link_libraries(roman_tests gtest gtest_main pthread)
+
